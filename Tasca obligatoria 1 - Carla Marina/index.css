@@ -175,8 +175,8 @@ button:hover{
         font-size: 30px;
     }
     .pics img {
-        width: 130px;
-        height: 130px;
+        width: 100px;
+        height: 100px;
     }
 
     iframe {
@@ -185,8 +185,8 @@ button:hover{
 
     #uspics {
         display: grid;
-        grid-template-columns: 130px 2fr 2fr ;
-        gap: 15px;;
+        grid-template-columns: 100px 2fr 2fr ;
+        gap: 15px;
     }
 
     form {
@@ -195,7 +195,7 @@ button:hover{
 
     #offerpics {
         display: grid;
-        grid-template-columns: 130px 2fr 2fr ;
+        grid-template-columns: 100px 2fr 2fr ;
         gap: 10px;
     }
     
