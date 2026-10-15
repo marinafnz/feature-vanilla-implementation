@@ -16,6 +16,7 @@ it-sprint1-maquetacio/
 ├── src/
 │   ├── assets/
 │   │   └── img/          # Imágenes de la cafetería, productos y logo
+│   │   └── figma/        # Mockup 
 │   └── css/
 │       └── index.css     # Hoja de estilos principal
 ├── index.html            # Estructura principal de la web
