@@ -1,15 +1,16 @@
-* {
+body {
     box-sizing: border-box;
     font-family: "Afacad", sans-serif ;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 header {
     height: 290px;
     max-width: 100%;
     text-align: center;
-    background-image:url(Imagenes/Texture.png);
+    background-image:url(/src/assets/img/Texture.png);
     background-repeat: repeat;
     font-size: 50px;
     display: flex;
@@ -28,6 +29,11 @@ header {
 #logo {
     height: auto;
     width: clamp(30px , 4vw, 50px);
+}
+
+#frontpage {
+    width: auto;
+    height: 200px;
 }
 
 nav {
@@ -71,7 +77,7 @@ nav a {
 #timewhere {
     height: 290px;
     max-width: 100%;
-    background-image:url(Imagenes/Texture.png);
+    background-image:url(/src/assets/img/Texture.png);
     background-repeat: repeat;
     display: flex;
     flex-direction: row;
@@ -109,7 +115,7 @@ iframe {
 
 #us{
     max-width: 100%;
-    background-image:url(Imagenes/Texture.png);
+    background-image:url(/src/assets/img/Texture.png);
     background-repeat: repeat;
     padding: 70px;
     height: 600px;
@@ -127,7 +133,7 @@ iframe {
 
 footer{
     max-width: 100%;
-    background-image:url(Imagenes/Texture.png);
+    background-image:url(/src/assets/img/Texture.png);
     background-repeat: repeat;
     color: rgb(250, 229, 171);
     display: grid;
@@ -136,23 +142,25 @@ footer{
 
 #contact {
     height: 600px;
-    padding: 10%;
     background-color: rgb(250, 229, 171);
+    display: flex;
+    justify-content: center;
 }
 
 form{
+    margin-top: 50px;
     width: 500px;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    justify-content: center;
 }
+
 
 button{
     padding: 9px;
     margin: 9px;
     font-size: 20px ;
-    background-image: url(Imagenes/Texture.png);
+    background-image: url(/src/assets/img/Texture.png);
     color:rgb(250, 229, 171);
 }
 

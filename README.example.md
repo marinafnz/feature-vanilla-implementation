@@ -1,6 +1,5 @@
-# Your Project Name
+# CAFETERÍA --> CAFÉ ACADEMY 
 
-> Replace this title with your project name
 
 ## Description
 
@@ -32,28 +31,17 @@ This project has a particular git branching strategy, so eachiteration should be
 
 ```
 /
-└── main
-    └── develop
-        ├── vainilla-iteration 
-            ├── feature/navbar
-            ├── feature/footer
-            ├── feature/form
-            ├── feature/desktop-styling
-            └── feature/...
-        ├── sass-iteration
-            └── feature/...
-        └── tailwind-iteration               // Remember to use npm o pnpm to develop easy and faster in this iteration. Also remember add to the .gitignore the node-modules folder
-            └── feature/...
+└── main   
+    ├── vainilla-iteration 
+        ├── feature/vainilla-implementation..
 
 ```
-## BECAREFUL!
-From this section of the readme you shuld to write in base on the tecnology context selected.
 
 ## Technologies Used
 
+- **FIGMA** - Mockup
 - **HTML5** - Semantic structure
 - **CSS3** - Styles and responsive design
-- **Tailwind** - Styling library (just add this )
 - **GitHub Pages** (optional) - Deployment
 
 ## Installation and Execution
