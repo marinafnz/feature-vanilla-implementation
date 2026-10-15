@@ -36,7 +36,6 @@ it-sprint1-maquetacio/
 - **FIGMA** - Mockup
 - **HTML5** - Semantic structure
 - **CSS3** - Styles and responsive design
-- **GitHub Pages** (optional) - Deployment
 
 ## Contributors
 
